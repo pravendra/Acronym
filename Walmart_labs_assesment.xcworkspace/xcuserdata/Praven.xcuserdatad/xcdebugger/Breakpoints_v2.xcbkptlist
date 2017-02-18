@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Walmart_labs_assesment/LongForm.swift"
+            timestampString = "509149612.555422"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Walmart_labs_assesment/JsonParsing.swift"
+            timestampString = "509150836.737645"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "array(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Walmart_labs_assesment.JsonParsing.array (Swift.Dictionary&lt;Swift.String, Any&gt;, Swift.String) -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "Walmart_labs_assesment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Praven/Documents/Walmart_labs_assesment/Walmart_labs_assesment/JsonParsing.swift"
+                  timestampString = "509151133.38071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Walmart_labs_assesmentTests.JsonParsing.array (Swift.Dictionary&lt;Swift.String, Any&gt;, Swift.String) -&gt; Swift.Array&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "Walmart_labs_assesmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Praven/Documents/Walmart_labs_assesment/Walmart_labs_assesment/JsonParsing.swift"
+                  timestampString = "509151133.93171"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

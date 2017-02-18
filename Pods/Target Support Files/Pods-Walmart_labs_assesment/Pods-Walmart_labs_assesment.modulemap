@@ -1,0 +1,6 @@
+framework module Pods_Walmart_labs_assesment {
+  umbrella header "Pods-Walmart_labs_assesment-umbrella.h"
+
+  export *
+  module * { export * }
+}

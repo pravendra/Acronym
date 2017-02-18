@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E672F8489A02D0419E7A56EA53D8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		18AA01C6C1CCFDD3E18B176C4248CA8B /* Pods-Walmart_labs_assesmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F07582B4FDD63B85597F2FBE271A47BD /* Pods-Walmart_labs_assesmentTests-dummy.m */; };
+		208EF7378B681B7FF435CA540FFFC09D /* Pods-Walmart_labs_assesment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECFDAC0047B10844BE473E92A949B83 /* Pods-Walmart_labs_assesment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D409C0228C2AAB8AD81EF22A516105 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */; };
+		57E9B041CC1D8988C38DDC97CAEFCD76 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */; };
+		91F7628E2A36135DFB1008D1D60CA8D4 /* Pods-Walmart_labs_assesment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F343A02DC01D1428BD596B816201F /* Pods-Walmart_labs_assesment-dummy.m */; };
+		AA00DCC0C8174B2D7E48EEC3C768B047 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B646C96E2D7DF54445B3719F800D79E9 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6956346398567BD28F81D8258C7458 /* Pods-Walmart_labs_assesmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27341EFC14EA40A8E2B219086F8F71D2 /* Pods-Walmart_labs_assesmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D206EDC84CE44D5DC711ADD087BC4B17 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC85B4199530288FFD94138AF894E4B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		E717387707B9641F9156469E9E2CA00C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01F9011E1D918B941C441427E50B428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1714E816AE794962516E2ECBB40A5A;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045F343A02DC01D1428BD596B816201F /* Pods-Walmart_labs_assesment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walmart_labs_assesment-dummy.m"; sourceTree = "<group>"; };
+		07775EBE7B8F91CB38A8607698BD0BA1 /* Pods-Walmart_labs_assesment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walmart_labs_assesment.debug.xcconfig"; sourceTree = "<group>"; };
+		1CBA5EBDBF563584F5A0DC22986617E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27341EFC14EA40A8E2B219086F8F71D2 /* Pods-Walmart_labs_assesmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Walmart_labs_assesmentTests-umbrella.h"; sourceTree = "<group>"; };
+		33559B90CF11984A94AD47FFE29076F5 /* Pods_Walmart_labs_assesmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart_labs_assesmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		341AA0AFEC7C5FC9927ECBBA8D78D04F /* Pods-Walmart_labs_assesmentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walmart_labs_assesmentTests-frameworks.sh"; sourceTree = "<group>"; };
+		3ECFDAC0047B10844BE473E92A949B83 /* Pods-Walmart_labs_assesment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Walmart_labs_assesment-umbrella.h"; sourceTree = "<group>"; };
+		45DF36E8051053695D7E003A3FB71928 /* Pods_Walmart_labs_assesment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart_labs_assesment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		571D0A30772ACC1A671E55FB7A4017BF /* Pods-Walmart_labs_assesment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walmart_labs_assesment-frameworks.sh"; sourceTree = "<group>"; };
+		66030843A8AB433F7555CD9D39E74E8F /* Pods-Walmart_labs_assesment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walmart_labs_assesment-resources.sh"; sourceTree = "<group>"; };
+		7C021C7C311C6C71314A6B70F2076E19 /* Pods-Walmart_labs_assesment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walmart_labs_assesment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C8F2BDE13DF4C5216946DB2EF30DE61 /* Pods-Walmart_labs_assesment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walmart_labs_assesment.release.xcconfig"; sourceTree = "<group>"; };
+		8816FE1C1EBED7F2A1E79DA93B037B5B /* Pods-Walmart_labs_assesmentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walmart_labs_assesmentTests-resources.sh"; sourceTree = "<group>"; };
+		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3659FF058D7997E37BD7ADD328B5B14 /* Pods-Walmart_labs_assesmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Walmart_labs_assesmentTests.modulemap"; sourceTree = "<group>"; };
+		A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		ABDE5159E3532D27560C38B324FAA637 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF81826F39E11858B25F76BE158E25CE /* Pods-Walmart_labs_assesmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walmart_labs_assesmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		BDF40CEE4F719EECEC0F4B63464C8C33 /* Pods-Walmart_labs_assesmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walmart_labs_assesmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5B3DFD863C4D055CBBBE314D93478B8 /* Pods-Walmart_labs_assesment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Walmart_labs_assesment.modulemap"; sourceTree = "<group>"; };
+		D983BF7AB4B5FA2A58653BA565CBC33D /* Pods-Walmart_labs_assesmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walmart_labs_assesmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2184B937BCA8A7A55D474625A5A8A8 /* Pods-Walmart_labs_assesment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walmart_labs_assesment-acknowledgements.plist"; sourceTree = "<group>"; };
+		E002BF49C347632918A649283A3CFFCA /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E187F850E960B96B8FC9C0F4B67B369D /* Pods-Walmart_labs_assesmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walmart_labs_assesmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F07582B4FDD63B85597F2FBE271A47BD /* Pods-Walmart_labs_assesmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walmart_labs_assesmentTests-dummy.m"; sourceTree = "<group>"; };
+		F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE6CEF1763E05FB90653801CE3E2B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D409C0228C2AAB8AD81EF22A516105 /* CoreGraphics.framework in Frameworks */,
+				E717387707B9641F9156469E9E2CA00C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C6A7F5906CE82558A0C86D70A362F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC85B4199530288FFD94138AF894E4B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE188E0135D29F83ECD3A415B523B1E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E672F8489A02D0419E7A56EA53D8B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0420DC2FFE084C6359F06088C04F113F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27BC98E59273E249B5E3DE64237211A9 /* Pods-Walmart_labs_assesment */,
+				53CFD076145C11B86A67FC650ECECCF2 /* Pods-Walmart_labs_assesmentTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F064D04E379CE8E07B6BDB97C593316 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */,
+				A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27BC98E59273E249B5E3DE64237211A9 /* Pods-Walmart_labs_assesment */ = {
+			isa = PBXGroup;
+			children = (
+				1CBA5EBDBF563584F5A0DC22986617E1 /* Info.plist */,
+				D5B3DFD863C4D055CBBBE314D93478B8 /* Pods-Walmart_labs_assesment.modulemap */,
+				7C021C7C311C6C71314A6B70F2076E19 /* Pods-Walmart_labs_assesment-acknowledgements.markdown */,
+				DF2184B937BCA8A7A55D474625A5A8A8 /* Pods-Walmart_labs_assesment-acknowledgements.plist */,
+				045F343A02DC01D1428BD596B816201F /* Pods-Walmart_labs_assesment-dummy.m */,
+				571D0A30772ACC1A671E55FB7A4017BF /* Pods-Walmart_labs_assesment-frameworks.sh */,
+				66030843A8AB433F7555CD9D39E74E8F /* Pods-Walmart_labs_assesment-resources.sh */,
+				3ECFDAC0047B10844BE473E92A949B83 /* Pods-Walmart_labs_assesment-umbrella.h */,
+				07775EBE7B8F91CB38A8607698BD0BA1 /* Pods-Walmart_labs_assesment.debug.xcconfig */,
+				7C8F2BDE13DF4C5216946DB2EF30DE61 /* Pods-Walmart_labs_assesment.release.xcconfig */,
+			);
+			name = "Pods-Walmart_labs_assesment";
+			path = "Target Support Files/Pods-Walmart_labs_assesment";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F064D04E379CE8E07B6BDB97C593316 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53CFD076145C11B86A67FC650ECECCF2 /* Pods-Walmart_labs_assesmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE5159E3532D27560C38B324FAA637 /* Info.plist */,
+				A3659FF058D7997E37BD7ADD328B5B14 /* Pods-Walmart_labs_assesmentTests.modulemap */,
+				BDF40CEE4F719EECEC0F4B63464C8C33 /* Pods-Walmart_labs_assesmentTests-acknowledgements.markdown */,
+				E187F850E960B96B8FC9C0F4B67B369D /* Pods-Walmart_labs_assesmentTests-acknowledgements.plist */,
+				F07582B4FDD63B85597F2FBE271A47BD /* Pods-Walmart_labs_assesmentTests-dummy.m */,
+				341AA0AFEC7C5FC9927ECBBA8D78D04F /* Pods-Walmart_labs_assesmentTests-frameworks.sh */,
+				8816FE1C1EBED7F2A1E79DA93B037B5B /* Pods-Walmart_labs_assesmentTests-resources.sh */,
+				27341EFC14EA40A8E2B219086F8F71D2 /* Pods-Walmart_labs_assesmentTests-umbrella.h */,
+				AF81826F39E11858B25F76BE158E25CE /* Pods-Walmart_labs_assesmentTests.debug.xcconfig */,
+				D983BF7AB4B5FA2A58653BA565CBC33D /* Pods-Walmart_labs_assesmentTests.release.xcconfig */,
+			);
+			name = "Pods-Walmart_labs_assesmentTests";
+			path = "Target Support Files/Pods-Walmart_labs_assesmentTests";
+			sourceTree = "<group>";
+		};
+		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5836A44A75C427EBF4739C55E2315758 /* Pods */,
+				C041E605A7502D676FABAAFAFB99B39B /* Products */,
+				0420DC2FFE084C6359F06088C04F113F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9841862FE02BD09196B31E3026B4325C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */,
+				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
+				A965BDBE5FC4856535619D751B2F0F38 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A965BDBE5FC4856535619D751B2F0F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD71A7E2391B90C816D7330BB6B999E4 /* Info.plist */,
+				45F7B1ADFBAA5AD7174555013C33C5A8 /* MBProgressHUD.modulemap */,
+				4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */,
+				B46DBFF3A36C2A3BFA5CD06A1960E97F /* MBProgressHUD-dummy.m */,
+				F561804416163A2E5EFC23029D9BD9A3 /* MBProgressHUD-prefix.pch */,
+				A83C101219E7ED4222CD65BCE24B0A5E /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		C041E605A7502D676FABAAFAFB99B39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E002BF49C347632918A649283A3CFFCA /* MBProgressHUD.framework */,
+				45DF36E8051053695D7E003A3FB71928 /* Pods_Walmart_labs_assesment.framework */,
+				33559B90CF11984A94AD47FFE29076F5 /* Pods_Walmart_labs_assesmentTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		941BCD34296ECB4819F0E47DDE8CFF4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6956346398567BD28F81D8258C7458 /* Pods-Walmart_labs_assesmentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5668E9EE000663A60FE31A99A03D7C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208EF7378B681B7FF435CA540FFFC09D /* Pods-Walmart_labs_assesment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D015B3F3E2F85391AA3B395B5B1ADCE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B646C96E2D7DF54445B3719F800D79E9 /* MBProgressHUD-umbrella.h in Headers */,
+				D206EDC84CE44D5DC711ADD087BC4B17 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A7B04E40E8E1DAD1DABFF8C1E72D18B /* Pods-Walmart_labs_assesmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F101CC2BEE26F7AA8E7BDD21012144 /* Build configuration list for PBXNativeTarget "Pods-Walmart_labs_assesmentTests" */;
+			buildPhases = (
+				4D2F5C2F6D43BC13D823E40B098A2A3C /* Sources */,
+				FE188E0135D29F83ECD3A415B523B1E0 /* Frameworks */,
+				941BCD34296ECB4819F0E47DDE8CFF4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Walmart_labs_assesmentTests";
+			productName = "Pods-Walmart_labs_assesmentTests";
+			productReference = 33559B90CF11984A94AD47FFE29076F5 /* Pods_Walmart_labs_assesmentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A1BDB3CE3F2F1CB0931DFEEDBA7936 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				5D9F4A386169F298C8544D099324BB28 /* Sources */,
+				9FE6CEF1763E05FB90653801CE3E2B5B /* Frameworks */,
+				D015B3F3E2F85391AA3B395B5B1ADCE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = E002BF49C347632918A649283A3CFFCA /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		844196A5A86D487266F7F44DE776BC61 /* Pods-Walmart_labs_assesment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67CEA5623F7C7D2A774F0FB618A6ABE /* Build configuration list for PBXNativeTarget "Pods-Walmart_labs_assesment" */;
+			buildPhases = (
+				74C5B016BD631FF748EFF84243890264 /* Sources */,
+				B5C6A7F5906CE82558A0C86D70A362F4 /* Frameworks */,
+				B5668E9EE000663A60FE31A99A03D7C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350D3E12EF7086906FAB6CA4A89BBF8A /* PBXTargetDependency */,
+			);
+			name = "Pods-Walmart_labs_assesment";
+			productName = "Pods-Walmart_labs_assesment";
+			productReference = 45DF36E8051053695D7E003A3FB71928 /* Pods_Walmart_labs_assesment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C041E605A7502D676FABAAFAFB99B39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */,
+				844196A5A86D487266F7F44DE776BC61 /* Pods-Walmart_labs_assesment */,
+				3A7B04E40E8E1DAD1DABFF8C1E72D18B /* Pods-Walmart_labs_assesmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2F5C2F6D43BC13D823E40B098A2A3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AA01C6C1CCFDD3E18B176C4248CA8B /* Pods-Walmart_labs_assesmentTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9F4A386169F298C8544D099324BB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E9B041CC1D8988C38DDC97CAEFCD76 /* MBProgressHUD-dummy.m in Sources */,
+				AA00DCC0C8174B2D7E48EEC3C768B047 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C5B016BD631FF748EFF84243890264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F7628E2A36135DFB1008D1D60CA8D4 /* Pods-Walmart_labs_assesment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350D3E12EF7086906FAB6CA4A89BBF8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 6B1714E816AE794962516E2ECBB40A5A /* MBProgressHUD */;
+			targetProxy = C01F9011E1D918B941C441427E50B428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		553E8FF792AEAA2A00D44F4832896005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8F2BDE13DF4C5216946DB2EF30DE61 /* Pods-Walmart_labs_assesment.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walmart_labs_assesment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walmart_labs_assesment/Pods-Walmart_labs_assesment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Walmart_labs_assesment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D511348AD3F0761CE11DF3670C29E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF81826F39E11858B25F76BE158E25CE /* Pods-Walmart_labs_assesmentTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walmart_labs_assesmentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walmart_labs_assesmentTests/Pods-Walmart_labs_assesmentTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Walmart_labs_assesmentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9320AB7B5F651733F146B6C620471C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4349E0D84790B414D6B9427FCF192DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07775EBE7B8F91CB38A8607698BD0BA1 /* Pods-Walmart_labs_assesment.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walmart_labs_assesment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walmart_labs_assesment/Pods-Walmart_labs_assesment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Walmart_labs_assesment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F10D9FFAEE387B734856D21ED0B3466A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1EE4B97D02463CB7C4D4F85F068867 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F98751E149E8F52CFCD9B9FA742CF82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D983BF7AB4B5FA2A58653BA565CBC33D /* Pods-Walmart_labs_assesmentTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walmart_labs_assesmentTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walmart_labs_assesmentTests/Pods-Walmart_labs_assesmentTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Walmart_labs_assesmentTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A1BDB3CE3F2F1CB0931DFEEDBA7936 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9320AB7B5F651733F146B6C620471C99 /* Debug */,
+				F10D9FFAEE387B734856D21ED0B3466A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F101CC2BEE26F7AA8E7BDD21012144 /* Build configuration list for PBXNativeTarget "Pods-Walmart_labs_assesmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D511348AD3F0761CE11DF3670C29E11 /* Debug */,
+				F98751E149E8F52CFCD9B9FA742CF82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67CEA5623F7C7D2A774F0FB618A6ABE /* Build configuration list for PBXNativeTarget "Pods-Walmart_labs_assesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4349E0D84790B414D6B9427FCF192DB /* Debug */,
+				553E8FF792AEAA2A00D44F4832896005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
